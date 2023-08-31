@@ -1,7 +1,7 @@
 export const kalkulPads = [
   {
     htmlID: "clear",
-    specs: { kalkulValue: "clear", kalkType: "ope" },
+    specs: { kalkulValue: "clear", kalkType: "clear" },
     kalkulDisplay: "AC",
   },
   {
@@ -20,7 +20,7 @@ export const kalkulPads = [
     kalkulDisplay: "7",
   },
   {
-    htmlID: "height",
+    htmlID: "eight",
     specs: { kalkulValue: "8", kalkType: "num" },
     kalkulDisplay: "8",
   },
@@ -30,7 +30,7 @@ export const kalkulPads = [
     kalkulDisplay: "9",
   },
   {
-    htmlID: "substract",
+    htmlID: "subtract",
     specs: { kalkulValue: "-", kalkType: "ope" },
     kalkulDisplay: "-",
   },
@@ -71,12 +71,12 @@ export const kalkulPads = [
   },
   {
     htmlID: "equals",
-    specs: { kalkulValue: "=", kalkType: "ope" },
+    specs: { kalkulValue: "=", kalkType: "equals" },
     kalkulDisplay: "=",
   },
   {
     htmlID: "zero",
-    specs: { kalkulValue: "0", kalkType: "zero" },
+    specs: { kalkulValue: "0", kalkType: "num" },
     kalkulDisplay: "0",
   },
   {

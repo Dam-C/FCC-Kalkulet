@@ -9,8 +9,8 @@ function App() {
 
   return (
     <div id="calculator">
-      <div id="display">{kalkulus}</div>
-      <div id="current-input">{curr}</div>
+      <div id="full-display">{kalkulus}</div>
+      <div id="display">{curr}</div>
       {kalkulPads.map((pad, i) => (
         <KalkBTN
           key={i}
