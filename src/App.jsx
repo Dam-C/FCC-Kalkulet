@@ -20,58 +20,7 @@ function App() {
           inputType={pad.kalkType}
         />
       ))}
-
-      {/* <div id="clear" className="pad-btn">
-        AC
-      </div>
-      <div id="divide" className="pad-btn">
-        /
-      </div>
-      <div id="multiply" className="pad-btn">
-        x
-      </div>
-      <div id="nine" className="pad-btn">
-        9
-      </div>
-      <div id="height" className="pad-btn">
-        8
-      </div>
-      <div id="seven" className="pad-btn">
-        7
-      </div>
-      <div id="substract" className="pad-btn">
-        -
-      </div>
-      <div id="six" className="pad-btn">
-        6
-      </div>
-      <div id="five" className="pad-btn">
-        5
-      </div>
-      <div id="four" className="pad-btn">
-        4
-      </div>
-      <div id="add" className="pad-btn">
-        +
-      </div>
-      <div id="three" className="pad-btn">
-        3
-      </div>
-      <div id="two" className="pad-btn" onClick={handleClick}>
-        2
-      </div>
-      <div id="one" className="pad-btn">
-        1
-      </div>
-      <div id="equals" className="pad-btn">
-        =
-      </div>
-      <div id="zero" className="pad-btn">
-        0
-      </div>
-      <div id="decimal" className="pad-btn">
-        .
-      </div> */}
+      <h4 className="creator">by Damien Charlois</h4>
     </div>
   );
 }

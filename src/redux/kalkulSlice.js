@@ -100,7 +100,6 @@ const kalkulSlice = createSlice({
           state.currentInput = action.payload.kalkulValue;
           state.kalkulus = [...state.kalkulus, state.currentInput];
         }
-        console.log(state.kalkulus);
         state.equalDone = false;
         state.zeroOrDecimal = false;
       }
@@ -135,6 +134,6 @@ const kalkulSlice = createSlice({
   },
 });
 
-export const { getInput, addToKalkulus, doKalkulus } = kalkulSlice.actions;
+export const { getInput } = kalkulSlice.actions;
 
 export default kalkulSlice;
